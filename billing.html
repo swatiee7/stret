@@ -1,0 +1,126 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limesteet</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4c866cbf2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+   
+  </head>
+  <!--code was beuatified-with format-document-->
+  
+  <body>
+    <div id="header">
+  
+    </div>
+    <br>
+        <!--Checkout-->
+     
+        <div class="container"style="background-color:#F5EDDC;">
+            <br>
+            <h4 >Payment Method</h4>
+            <br>
+            <br>
+           <div class="container" style="border:none">
+            <div class="row " style="text-align:left;">
+              <label for="Card Number"> Card Number<br>
+                  <input type="number" class="col-md-4 form-control mb-3" placeholder="Enter a card number">
+              </label>
+          </div>
+          <div class="row " style="text-align:left">
+              <label for="Card Number"> Expires on<br>
+                  <div class="input-group">
+                      <input type="number" aria-label="First name" class="form-control" placeholder="Month">
+                      <input type="number" aria-label="Last name" class="form-control"placeholder="Year" >
+                    </div>
+                 
+              </label>
+          </div><br>
+          <div class="row" style="text-align:left">
+              <label for="Code">Security code<br>
+                  <div class="input-group">
+                      <input type="password" class="col-auto form-control mb-3" placeholder="*****">
+                    
+                    </div>
+                 
+              </label>
+            
+          </div>
+          <br>
+<div class="row offset-2" style="text-align:left">
+  <div class="col-5">
+      <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+             Cash on Dlivery
+          </label>
+        </div>
+  </div>
+  <div class="col-5">
+      <h6>Other payments</h6>
+       
+      <a href="https://pay.google.com/intl/en_in/about/" ><img src="Google_Pay-Logo.wine.svg"alt="google-pay" id="gp" style="width:45px"></a>
+      <a href="https://pay.google.com/intl/en_in/about/" ><img src="PhonePe-Logo.wine.svg"alt="phone-pay" id="gp" style="width:60px"></a>
+      <a href="https://pay.google.com/intl/en_in/about/" ><img src="Paytm-Logo.wine.svg"alt="paytm-pay" id="gp" style="width:55px"></a>
+      <a href="https://pay.google.com/intl/en_in/about/" ><img src="PayPal-Logo.wine.svg"alt="paypal-pay" id="gp" style="width:65px"></a>
+      <a href="https://pay.google.com/intl/en_in/about/" ><img src="Amazon_Pay-Logo.wine.svg"alt="amazon-pay" id="gp" style="width:65px"></a>
+  </div>
+          
+
+      </div>
+<br>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  
+     Continue   
+    
+      </div>
+   
+</button>
+           </div>
+
+
+  
+  <!-- Modal  for -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header"><h2>Order Placed Successfully on<p id="order-date"></p></h2>
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h5>Thank you for your order</h5>
+          <p>Your order has been placed and is being processed. You will recieve an email with  order details</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <a href="index.html">   <button type="button" class="btn btn-primary">Back to homepage</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+<br>
+
+
+<!--footer-->
+    <div id="footer">
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+  
+  </html>

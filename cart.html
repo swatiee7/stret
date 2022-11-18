@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limesteet</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d4c866cbf2.js" crossorigin="anonymous"></script>
+
+  </script>
+</head>
+
+
+<body>
+  <br>
+  <!-- Nav Bar-1st header -->
+
+  <div id="header">
+
+  </div>
+
+
+  <br>
+
+
+
+  <div class="container" style="text-align:left;">
+    <div class="card" style="border:none">
+      <div class="card-header">
+        <div class="row"style="background-color:#F5EDDC;">
+          <div class="col-6">
+            <h5><span class="glyphicon glyphicon-shopping-cart"></span> <i class="fa-solid fa-cart-shopping"></i> &nbsp
+              Shopping Cart</h5>
+            <!--&nbsp is a space in html-->
+          </div>
+          <div class="col-6">
+           <a href="allproducts.html"> <button type="button" class="btn btn-primary btn-sm btn-block" style="float:right">
+            <span class="glyphicon glyphicon-share-alt"></span> Continue shopping
+          </button></a>
+          </div>
+
+        </div>
+      </div>
+      <div class="card-body"style="background-color:#F5EDDC;">
+        <div class="row"style="background-color:#F5EDDC;">
+          <div class="col-lg-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="container col-4">
+                  <img src="k-1.jfif" class="img-fluid rounded-start" alt="women-dress">
+                </div>
+                <div class="col">
+                  <br>
+                  <br>
+                  <p>
+                  <h6>Pink Corn Dress</h6>
+                  15$<br><br>
+                  <button class="btn btn-danger btn-sm" id="trash"><i class="fa-solid fa-trash"></i></button></p>
+                </div>
+                <div class="col">
+                  <br>
+                  <br>
+                  <br>
+                  <button class="btn btn-primary btn-sm m" id="addition" onclick="cartFunction"><i
+                      class="fa-solid fa-plus fa-xs"></i></button>
+                  <input type="number" id="result" style="width:40%" aria-label="readonly input example" value="1"
+                    readonly></input>
+                  <button class="btn btn-primary btn-sm" id="minus" onclick="cartFunction"><i
+                      class="fa-solid fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3">
+            <div class="card"style="background-color:#F5EDDC;">
+              <div class="card-header">
+                <h4>Summary</h4>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    Cost
+                  </div>
+                  <div class="col">
+                    15$
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    Shipping
+                  </div>
+                  <div class="col">
+                    5$
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                    Total
+                  </div>
+                  <div class="col">
+                    20$
+                  </div>
+                </div>
+                <br>
+                <div class="col-xs-1">
+                  <button type="button" class="btn btn-success btn-block " onclick="window.location.href='adress.html'">
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+   
+
+
+  </div>
+
+<!--footer-->
+  <div id="footer">
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+/* -code was beuatified-with format-document */
+
+body {
+    margin:10px;
+    font-family: Calibri;
+}
+
+/* Nav-container stylings */
+
+.container-fluid {
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+
+/*  Navbar- styings */
+
+.nav-link {
+    font-size: 15px;
+    color: black;
+}
+
+.dropdwns {
+    font-size: smaller;
+    border: 1px solid white;
+}
+
+
+/* Buttons and main-image-styling */
+
+.btn {
+    margin: 2px;
+}
+
+.main-img0 {
+    opacity: 50%;
+    width:100%;
+    height:20%;
+    opacity: 50%;
+}
+
+
+
+/* New arrivals styling */
+.nw {
+    height: 90%;
+    width: 90%;
+    transition: width 2s, height 4s;
+}
+
+.nw:hover {
+    width: 100%;
+}
+
+
+/* Featured section styling */
+
+.f-container {
+    margin: 20px;
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    background-color: #F5EDDC;
+
+}
+
+/*href links styling */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+img:hover {
+    transition: width 2s, height 4s;
+}
+
+
+
+
+/* Mazagine section styling */
+#mazagine {
+    text-align: center;
+    background-color: #F5EDDC;
+}
+
+
+
+
+
+/* Responsivenss with media */
+
+@media screen and (min-width:568px) {
+    .card-s {
+        display: flex;
+    }
+
+
+}
+
+
+@media screen and (max-width:640px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    #second {
+        display: none;
+    }
+
+    .f-container {
+        padding: 40px 40px;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+    }
+
+
+
+    
+}
+
+
+
+/* Headings with animations */
+
+h1 {
+    letter-spacing: 2;
+    font-size: 3rem;
+    font-variant: small-caps;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: black;
+    animation-name: brand-anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2;
+    font-variant: small-caps;
+    color: black;
+    animation-name: brand-anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes brand-anim {
+    15% {
+        color: rgb(125, 172, 211);
+    }
+
+    17% {
+        color: rgb(216, 114, 78);
+    }
+
+    19% {
+        color: rgb(125, 172, 211);
+    }
+
+    11% {
+        color: white;
+    }
+
+    19% {
+        color: black;
+    }
+
+}
+
+
+/* contact page styling */
+
+.contact-form {
+    padding: 40px 40px;
+
+}
+
+
+/* login inputs styling */
+
+
+.login-section {
+    float: left;
+    width: 100%;
+  
+
+}
+
+.login-sec {
+    padding: 100px 30px;
+    position: relative;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+/* background image styling */
+.banner {
+    background: url("yelowgirl.jpg") no-repeat left bottom;
+    background-size: cover;
+    height: 550px;
+    border-radius: 0 10px 10px 0;
+ 
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+
+
+/* h2 heading styling with animation */
+
+h3 {
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2;
+    font-variant: small-caps;
+    color: black;
+    animation-name: brand-anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes brand-anim {
+    15% {
+        color: rgb(125, 172, 211);
+    }
+
+    17% {
+        color: rgb(216, 114, 78);
+    }
+
+    19% {
+        color: rgb(125, 172, 211);
+    }
+
+    11% {
+        color: white;
+    }
+
+    19% {
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:567px) {
+    h3 {
+        letter-spacing: 2;
+        font-variant: small-caps;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        color: black;
+        animation-name: brand-anim;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+}
+
+
+
+
+/* Footer styling */
+
+#f-t-r {              /* this id styling is for let's stay in touch */
+    text-align: center;
+    background-color: #D3E0DC;
+
+}
+
+li{
+    color:black;
+}
+.list-inline-item a {
+    color: black;
+}
+
+small {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
